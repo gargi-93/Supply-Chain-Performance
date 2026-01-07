@@ -6,7 +6,7 @@ The dashboard focuses on revenue, profit, inventory stockout risk, supplier reli
 
 ## Project Objective
 To evaluate supply chain performance and support data-driven decisions by analyzing:
-- Revenue, cost, and profit distribution
+- Revenue, cost, and profit 
 - Inventory stockout risks
 - Supplier performance and risk
 - Logistics carrier efficiency
