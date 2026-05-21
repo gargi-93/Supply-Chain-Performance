@@ -4,54 +4,54 @@ This project presents an end-to-end Power BI dashboard designed to analyze suppl
 Project Objective
 The dashboard was built to evaluate supply chain performance through a business-focused analytics lens. It helps answer key operational questions such as:
 
-Which product categories generate the highest revenue and gross profit?
+•	Which product categories generate the highest revenue and gross profit?
 
-Which suppliers carry the highest risk based on defect rate and lead time?
+•	Which suppliers carry the highest risk based on defect rate and lead time?
 
-Which shipping carriers perform most efficiently?
+•	Which shipping carrier performs most efficiently?
 
-Which products are at risk of stockout based on current inventory and incoming orders?
+•	Which products are at risk of stockout based on current inventory and incoming orders?
 
-How do core performance metrics vary across locations?
+•	How do core performance metrics vary across locations?
 
 Tools & Technologies
-Power BI for dashboard design and interactive reporting
+•	Power BI for dashboard design and interactive reporting
 
-Power Query for data preparation and transformation
+•	Power Query for data preparation and transformation
 
-DAX for KPI calculations and custom business measures
+•	DAX for KPI calculations and custom business measures
 
-Excel / CSV datasets as source data
+•	Excel / CSV datasets as source data
 
 Dashboard Structure
 1. Executive Summary
 This page provides a high-level overview of overall supply chain and business performance.
 
-KPIs included:
+•	KPIs included:
 
-Total Revenue
+•	Total Revenue
 
-Gross Profit
+•	Gross Profit
 
-Contribution Margin
+•	Contribution Margin
 
-Total Cost
+•	Total Cost
 
-Average Defect Rate
+•	Average Defect Rate
 
-Stockout Alert
+•	Stockout Alert
 
-Visuals included:
+•	Visuals included:
 
-Total Revenue by Product Type
+•	Total Revenue by Product Type
 
-Gross Profit by Product Type
+•	Gross Profit by Product Type
 
-Total Cost by Product Type
+•	Total Cost by Product Type
 
-Inventory Stockout Risk table
+•	Inventory Stockout Risk table
 
-Location slicer for interactive filtering
+•	Location slicer for interactive filtering
 
 2. Supplier Analysis
 This page focuses on supplier quality and operational reliability.
@@ -66,7 +66,7 @@ Supplier Risk Score by Supplier
 
 A custom Supplier Risk Score was created by combining normalized defect rate and normalized lead time into one weighted measure:
 
-text
+
 Supplier Risk Score =
 0.5 * [Normalized Defect Score]
 + 0.5 * [Normalized Lead Time Score]
@@ -136,9 +136,6 @@ Where are operational inefficiencies driving cost upward?
 
 Files in This Repository
 Supply chain.pbix — Power BI dashboard file
-
-Supply Chain Performance.pdf — exported dashboard/report version
-
 README.md — project documentation
 
 How to Use
